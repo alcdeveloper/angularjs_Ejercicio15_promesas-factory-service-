@@ -1,0 +1,33 @@
+
+<html ng-app="promesaApp" >
+    <head>
+        <meta charset="utf-8">
+        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+        <title>Promesas</title>
+
+
+
+
+
+
+        <!-- Incluir AngularJS -->
+        <script src="js/lib/angular.min.js"></script>
+        <script src="angular/app.js"></script>
+        <script src="angular/controladores.js"></script>
+        <script src="angular/servicios.js"></script>
+        
+
+
+    </head>    
+    <body >
+        
+        <div class="container" ng-controller="personasCtrl">
+
+        <h1>Servicios</h1>
+        <hr>
+
+        <pre>{{ personas | json }}</pre>
+        
+    </body>
+</html>
